@@ -48,13 +48,13 @@ A clean-install test and macOS 13/14/15 testing are still pending. See
 
 ![Animated preview](Preview/Demo/demo-montage.gif)
 
-| Finder | Text editor | Dock |
+| Finder | Text editor | Full cursor set |
 |---|---|---|
-| ![Arrow in Finder](Preview/Screenshots/finder-arrow.png) | ![I-beam in TextEdit](Preview/Screenshots/textedit-ibeam.png) | ![Arrow over the Dock](Preview/Screenshots/dock-arrow.png) |
+| ![Arrow in Finder](Preview/Screenshots/finder-arrow.png) | ![I-beam in TextEdit](Preview/Screenshots/textedit-ibeam.png) | ![All 16 cursors](Preview/Screenshots/cursor-set.png) |
 
-> The GIF is rendered from the source animation files. The three screenshots above were
-> captured on macOS 27.2 with the theme applied; the cursor is the real system cursor, not
-> composited.
+> The GIF is rendered from the source animation files. The Finder and TextEdit images are
+> real captures taken on macOS 27.2 with the theme applied; the cursor is the real system
+> cursor, not composited. The third image is the complete 16-cursor set as displayed by MaCursor.
 
 ### Character & design
 
@@ -283,12 +283,13 @@ MaCursor 是一款免费、已公证的 macOS 指针管理工具。
 
 ![动画预览](Preview/Demo/demo-montage.gif)
 
-| Finder | 文本编辑器 | Dock |
+| Finder | 文本编辑器 | 全套指针 |
 |---|---|---|
-| ![Finder 中的箭头](Preview/Screenshots/finder-arrow.png) | ![TextEdit 中的 I-beam](Preview/Screenshots/textedit-ibeam.png) | ![Dock 上的箭头](Preview/Screenshots/dock-arrow.png) |
+| ![Finder 中的箭头](Preview/Screenshots/finder-arrow.png) | ![TextEdit 中的 I-beam](Preview/Screenshots/textedit-ibeam.png) | ![全部 16 个指针](Preview/Screenshots/cursor-set.png) |
 
-> 上面的 GIF 是用源动画文件渲染的预览，实际显示可能略有差异。上面三张截图是在
-> macOS 27.2 上应用主题后实拍的，指针是真实系统指针，没有合成。
+> 上面的 GIF 是用源动画文件渲染的预览，实际显示可能略有差异。Finder 和 TextEdit 两张是在
+> macOS 27.2 上应用主题后实拍的，指针是真实系统指针，没有合成；第三张是 MaCursor 里的
+> 全套 16 个指针总览。
 
 ### 角色与设计
 

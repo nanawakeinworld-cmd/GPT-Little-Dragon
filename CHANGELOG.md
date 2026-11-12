@@ -8,7 +8,7 @@ and the project aims to follow [Semantic Versioning](https://semver.org/).
 
 ### Added
 - Repository scaffold: `Preview/`, `Cursor/`, `Installation/`, `Credits/`.
-- Real macOS screenshots: Finder arrow, TextEdit I-beam, Dock arrow.
+- Real macOS screenshots: Finder arrow, TextEdit I-beam; plus the full 16-cursor set.
 - Bilingual README (English / 简体中文).
 - Dual-licence draft: MIT for code, CC BY-NC-SA 4.0 for artwork.
 - Install, uninstall and troubleshooting guides.

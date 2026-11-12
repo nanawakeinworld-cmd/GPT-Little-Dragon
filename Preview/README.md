@@ -12,7 +12,7 @@
 | `Demo/demo-montage.gif` | Three animations side by side, rendered for the README | Generated |
 | `Screenshots/finder-arrow.png` | Real capture: arrow over Finder | Captured |
 | `Screenshots/textedit-ibeam.png` | Real capture: I-beam over TextEdit | Captured |
-| `Screenshots/dock-arrow.png` | Real capture: arrow over the Dock | Captured |
+| `Screenshots/cursor-set.png` | MaCursor overview: all 16 cursors | Captured |
 
 The generated images were produced from the original assets with
 `Cursor/Source/render_previews.py`. They are previews, not substitutes for the
