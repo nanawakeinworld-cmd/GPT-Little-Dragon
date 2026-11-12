@@ -8,6 +8,7 @@ and the project aims to follow [Semantic Versioning](https://semver.org/).
 
 ### Added
 - Repository scaffold: `Preview/`, `Cursor/`, `Installation/`, `Credits/`.
+- Real macOS screenshots: Finder arrow, TextEdit I-beam, Dock arrow.
 - Bilingual README (English / 简体中文).
 - Dual-licence draft: MIT for code, CC BY-NC-SA 4.0 for artwork.
 - Install, uninstall and troubleshooting guides.
@@ -25,8 +26,8 @@ and the project aims to follow [Semantic Versioning](https://semver.org/).
 - The Idle animation (`01_普通待机_小龙.gif`) is source-only by design: macOS has
   no idle cursor role that animates while the pointer rests. It is kept as a
   preview / future asset.
-- No clean-install or macOS 26/27 application test is recorded yet.
-- `Preview/Screenshots/` is empty — real screenshots are still pending.
+- Tested on macOS 27.2 (arm64) with MaCursor 2.8.0: the theme imports, applies, and all
+  16 cursors render. A clean-install and macOS 13/14/15 test are still pending.
 - `Cursor/Source/build_theme.py` still references the original external
   `../incoming/` and `assets/v16/` paths; it can be re-run with a prepared
   `Cursor/incoming/` folder, but a fresh build is not fully identical.

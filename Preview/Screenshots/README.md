@@ -1,27 +1,28 @@
-# Screenshots — pending
+# Screenshots
 
-This folder is intentionally empty.
+Real captures — no mock-ups.
 
-No screenshot has been captured yet, and **no mock-up is presented as a real
-macOS screenshot**. The poster and the static overview are clearly labelled
-renders, not desktop captures.
+Environment: **macOS 27.2 (Apple Silicon)**, **MaCursor 2.8.0**. The theme was imported
+from this repository's `Cursor/GPT-Little-Dragon-v16.cursor` and applied before capturing.
 
-## What to capture
+| File | What it shows |
+|---|---|
+| `finder-arrow.png` | The purple dragon arrow over a Finder window showing this project's `Preview/` folder |
+| `textedit-ibeam.png` | The dragon-with-laptop I-beam over text in TextEdit |
+| `dock-arrow.png` | The arrow over the Dock |
 
-Once the theme has been applied on a real Mac, capture at least:
+## How they were captured
 
-1. `finder.png` — Finder window with the pointer over a file.
-2. `browser.png` — a browser page with the text cursor visible.
-3. `editor.png` — a code editor / terminal-adjacent app showing the arrow.
-4. `busy.png` — the waiting animation while an app is loading.
-5. `menu-bar.png` — a close-up of the cursor at 1× and 2× scale.
+```bash
+screencapture -x -C -R <x>,<y>,<w>,<h> <file>.png
+```
 
-## Rules
+`-C` includes the **real system cursor** — nothing was composited or drawn on afterwards.
+The TextEdit content is demo text written for this test; the Finder window shows only
+public project files. No personal information is included.
 
-- Use a real macOS session with the theme applied.
-- Do not composite or fake the pointer.
-- Hide personal information (usernames, file names, tokens, notifications).
-- Prefer PNG, full resolution, light and dark mode where relevant.
-- Add a short caption in the README once the images exist.
+## Note on naming
 
-Suggested capture tool: macOS built-in `⇧⌘4` (area) or `⇧⌘5`.
+MaCursor normalizes themes on import and appends a suffix when a theme with the same name
+already exists. During this test the library entry was named `GPT 小龙 v16-3`; the visuals
+are those of this repository's theme file, but the MaCursor copy is re-encoded internally.

@@ -35,8 +35,9 @@ little dragon with small demon horns and bat wings. The set replaces the system 
 The theme is packaged as a `.cursor` file for [MaCursor](https://github.com/writronic/MaCursor),
 a free and notarized cursor manager for macOS.
 
-**Status:** `v16` is built and structurally validated. No clean-machine or macOS 26/27
-test is recorded in this repository yet. Screenshots are still pending. See
+**Status:** `v16` is built and structurally validated, and was applied successfully in
+**MaCursor 2.8.0 on macOS 27.2 (Apple Silicon)**. Real screenshots are included.
+A clean-install test and macOS 13/14/15 testing are still pending. See
 [Status & roadmap](#status--roadmap).
 
 ### Preview
@@ -47,9 +48,13 @@ test is recorded in this repository yet. Screenshots are still pending. See
 
 ![Animated preview](Preview/Demo/demo-montage.gif)
 
-> The GIF above is a preview rendered from the source animation files. Real cursor rendering
-> on macOS may look slightly different. Screenshots are marked as pending — nothing here is a
-> mock-up presented as a real desktop capture.
+| Finder | Text editor | Dock |
+|---|---|---|
+| ![Arrow in Finder](Preview/Screenshots/finder-arrow.png) | ![I-beam in TextEdit](Preview/Screenshots/textedit-ibeam.png) | ![Arrow over the Dock](Preview/Screenshots/dock-arrow.png) |
+
+> The GIF is rendered from the source animation files. The three screenshots above were
+> captured on macOS 27.2 with the theme applied; the cursor is the real system cursor, not
+> composited.
 
 ### Character & design
 
@@ -217,12 +222,13 @@ Unofficial fan work; not affiliated with OpenAI.
 - [x] Structural validation (16 cursors, frame sheets, hotspots, alpha)
 - [x] Repository structure, README, licence drafts, install docs
 - [x] Re-ran the archived builder: 14 static cursors byte-identical, 2 animated cursors slightly different
+- [x] Applied in MaCursor 2.8.0 on macOS 27.2; real screenshots captured
 - [x] Licence posture: fan use, non-commercial, logo kept with a clear disclaimer
 - [x] Idle kept as a source-only preview (no macOS idle cursor role)
 - [ ] Reconcile the animated GIF revision
 - [ ] Test on a clean macOS 13/14/15 machine
 - [ ] Verify on macOS 26 Tahoe / 27
-- [ ] Add real screenshots (`Preview/Screenshots/`)
+- [x] Add real screenshots (`Preview/Screenshots/`)
 - [ ] Freeze a downloadable release and checksum
 
 ### Repository layout
@@ -238,7 +244,7 @@ GPT-Little-Dragon/
 ├── Preview/
 │   ├── Poster/            # poster, social-preview, xiaohongshu-4x5
 │   ├── Static-Overview.png
-│   ├── Screenshots/          # pending
+│   ├── Screenshots/          # real captures
 │   └── Demo/                 # idle / waiting / working + montage
 ├── Cursor/
 │   ├── GPT-Little-Dragon-v16.cursor
@@ -265,8 +271,9 @@ Q 版小龙。主题把系统指针替换成 16 个精心调整过的指针：1 
 主题打包为 [MaCursor](https://github.com/writronic/MaCursor) 使用的 `.cursor` 文件。
 MaCursor 是一款免费、已公证的 macOS 指针管理工具。
 
-**当前状态：** `v16` 主题文件已经生成，并做了结构校验；本仓库目前**没有**干净系统实测
-与 macOS 26/27 验证记录。截图待补。详见[状态与路线图](#状态与路线图)。
+**当前状态：** `v16` 已生成并通过结构校验，并在 **macOS 27.2（Apple Silicon）+ MaCursor 2.8.0**
+上成功应用，附真实截图。干净系统与 macOS 13/14/15 的测试仍待补。详见
+[状态与路线图](#状态与路线图)。
 
 ### 预览
 
@@ -276,8 +283,12 @@ MaCursor 是一款免费、已公证的 macOS 指针管理工具。
 
 ![动画预览](Preview/Demo/demo-montage.gif)
 
-> 上面的 GIF 是用源动画文件渲染的预览，实际在 macOS 上的显示可能略有差异。
-> 截图区域目前标注为“待补”，没有把效果图冒充成真实桌面截图。
+| Finder | 文本编辑器 | Dock |
+|---|---|---|
+| ![Finder 中的箭头](Preview/Screenshots/finder-arrow.png) | ![TextEdit 中的 I-beam](Preview/Screenshots/textedit-ibeam.png) | ![Dock 上的箭头](Preview/Screenshots/dock-arrow.png) |
+
+> 上面的 GIF 是用源动画文件渲染的预览，实际显示可能略有差异。上面三张截图是在
+> macOS 27.2 上应用主题后实拍的，指针是真实系统指针，没有合成。
 
 ### 角色与设计
 
@@ -431,12 +442,13 @@ Unofficial fan work; not affiliated with OpenAI.
 - [x] 结构校验（16 个指针、帧图尺寸、热点、透明通道）
 - [x] 仓库结构、README、许可证草案、安装文档
 - [x] 重跑归档构建脚本：14 个静态指针逐字节一致，2 个动画指针略有差异
+- [x] 在 macOS 27.2 + MaCursor 2.8.0 上成功应用，并完成实拍截图
 - [x] 授权口径：粉丝非商业使用，保留标志并明确免责
 - [x] 待机动画作为源素材预览保留（macOS 没有待机指针角色）
 - [ ] 核对动画 GIF 的版本
 - [ ] 在干净的 macOS 13/14/15 机器上实测
 - [ ] 在 macOS 26 Tahoe / 27 上验证
-- [ ] 补真实截图（`Preview/Screenshots/`）
+- [x] 补真实截图（`Preview/Screenshots/`）
 - [ ] 冻结可下载的 Release 并生成校验和
 
 ### 仓库结构
@@ -452,7 +464,7 @@ GPT-Little-Dragon/
 ├── Preview/
 │   ├── Poster/            # poster, social-preview, xiaohongshu-4x5
 │   ├── Static-Overview.png
-│   ├── Screenshots/          # 待补
+│   ├── Screenshots/          # 实拍截图
 │   └── Demo/                 # idle / waiting / working + 拼图
 ├── Cursor/
 │   ├── GPT-Little-Dragon-v16.cursor

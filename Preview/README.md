@@ -10,7 +10,9 @@
 | `Demo/waiting.gif` | Source busy animation (16 frames, 60 ms) | Source material |
 | `Demo/working.gif` | Source background-work animation (16 frames, 60 ms) | Source material |
 | `Demo/demo-montage.gif` | Three animations side by side, rendered for the README | Generated |
-| `Screenshots/` | Real macOS screenshots | **Pending** |
+| `Screenshots/finder-arrow.png` | Real capture: arrow over Finder | Captured |
+| `Screenshots/textedit-ibeam.png` | Real capture: I-beam over TextEdit | Captured |
+| `Screenshots/dock-arrow.png` | Real capture: arrow over the Dock | Captured |
 
 The generated images were produced from the original assets with
 `Cursor/Source/render_previews.py`. They are previews, not substitutes for the
