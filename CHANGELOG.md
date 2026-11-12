@@ -16,6 +16,10 @@ and the project aims to follow [Semantic Versioning](https://semver.org/).
 ### Changed
 - Reorganised the original working folder into a publishable structure without
   modifying the source assets.
+- Regenerated the theme UUID and set `ThemeVersion` to `16.0`, so MaCursor treats
+  this build as a distinct theme instead of colliding with an older import.
+  The pre-normalisation file is preserved at
+  `Cursor/Source/GPT-Little-Dragon-v16-original.cursor`.
 
 ### Known issues
 - The Idle animation (`01_普通待机_小龙.gif`) is source-only by design: macOS has
@@ -43,8 +47,8 @@ and the project aims to follow [Semantic Versioning](https://semver.org/).
 ### Notes
 - Theme identifier: `gpt-little-dragon-v16`.
 - Theme display name: `GPT 小龙 v16`.
-- Internal `ThemeVersion` string is `11.0` (historical build number); the
-  project version is `v16`. This mismatch is intentional for now and should be
-  normalised before a public release.
+- `ThemeVersion` was `11.0` when first packaged; it is now normalised to `16.0`
+  and the UUID was regenerated (2026-11-13). The original file is kept at
+  `Cursor/Source/GPT-Little-Dragon-v16-original.cursor`.
 - Structural validation passed: 16 cursors, 32 image representations, correct
   frame-sheet dimensions, hotspots inside bounds, alpha channel present.

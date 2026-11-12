@@ -10,6 +10,7 @@ Nothing here is required to install the theme.
 | `animated-gifs/01_普通待机_小龙.gif` | Idle animation, 16 frames, 60 ms |
 | `animated-gifs/02_忙碌等待_小龙.gif` | Busy / waiting animation, 16 frames, 60 ms |
 | `animated-gifs/03_后台工作_小龙.gif` | Background-work animation, 16 frames, 60 ms |
+| `GPT-Little-Dragon-v16-original.cursor` | Pre-normalisation theme (`ThemeVersion` 11.0, old UUID), kept for provenance |
 | `build_theme.py` | Original theme builder (archived as-is) |
 | `render_previews.py` | Generates `Cursor/Static/`, the poster, the contact sheet and the montage |
 
