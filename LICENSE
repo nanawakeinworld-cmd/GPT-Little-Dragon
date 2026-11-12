@@ -1,0 +1,73 @@
+GPT Little Dragon — License Overview
+=====================================
+
+Copyright (c) 2026 GPT Little Dragon Project
+
+This project is dual-licensed. The licence depends on what you are using.
+
+1. CODE — MIT License
+----------------------
+Applies to:
+  - Cursor/Source/build_theme.py
+  - Cursor/Source/render_previews.py
+  - any other source code, scripts and configuration in this repository
+
+See LICENSE-CODE for the full text. In short: you may use, copy, modify,
+merge, publish, distribute, sublicense and sell copies of the code, provided
+the copyright notice and permission notice are included.
+
+2. ARTWORK — CC BY-NC-SA 4.0
+----------------------------
+Applies to:
+  - all cursor images (.png) and animations (.gif)
+  - the packaged .cursor theme
+  - the poster and preview images
+  - the character design and its visual assets
+
+See LICENSE-ARTWORK for the full legal code. In short, you may:
+  - share the artwork
+  - adapt and remix it
+for non-commercial purposes only, provided that you:
+  - give appropriate credit
+  - link to the licence
+  - indicate whether changes were made
+  - licence your adaptation under CC BY-NC-SA 4.0
+
+You may not use the artwork for commercial advantage or monetary compensation.
+
+3. TRADEMARKS — NOT LICENSED
+----------------------------
+"GPT", "OpenAI" and the OpenAI knot logo are trademarks of OpenAI.
+They are referenced here only as part of an unofficial fan tribute.
+No trademark rights are granted under this project, and nothing in this
+repository may be read as permission to use the OpenAI marks.
+
+This project is not affiliated with, endorsed by, or sponsored by OpenAI.
+
+4. AI-ASSISTED CONTENT — PROVENANCE NOTE
+----------------------------------------
+The character artwork was produced with generative AI tools and then curated
+by the project author. Copyright in AI-generated material is uncertain and
+varies by jurisdiction. The licence above is granted only to the extent that
+the project author holds rights in the material. See Credits/Credits.md for
+the provenance record that is currently available.
+
+5. NO WARRANTY
+--------------
+The material is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and non-infringement. In no event shall the
+authors or copyright holders be liable for any claim, damages or other
+liability arising from the use of the material.
+
+6. ATTRIBUTION TEMPLATE
+-----------------------
+GPT Little Dragon — macOS cursor theme
+by <author> — <repository URL>
+Licensed under CC BY-NC-SA 4.0. Changes were made.
+Unofficial fan work; not affiliated with OpenAI.
+
+7. CONTACT
+----------
+For permission requests outside these licences, or to report a rights issue,
+please open an issue in the project repository.

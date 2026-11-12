@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+._*
+
+# Archives and extracted working files
+*.zip
+_extract/
+dist16/
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Python
+__pycache__/
+*.pyc
